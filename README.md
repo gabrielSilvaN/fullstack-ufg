@@ -1,0 +1,1 @@
+# Projeto desenvolvido para a disciplina de Desenvolvimento Fullstack - SI/UFG - 2021/1
