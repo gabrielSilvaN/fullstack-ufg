@@ -1,16 +1,12 @@
-import java.util.Calendar;
-
 public class App {
     public static void main(String[] args) {
-        PessoaFisica gabriel = new PessoaFisica();
+        Conta conta1 = new Conta();
 
-        Calendar dtNascimentoGabriel = Calendar.getInstance();
+        Conta conta2 = new Conta();
 
-        dtNascimentoGabriel.set(1996, 11, 16);
+        Pessoa pessoa1 = new Pessoa();
 
-        gabriel.setDtNascimento(dtNascimentoGabriel);
-
-        System.err.println(gabriel.getIdade());
-
+        conta1.setCliente(pessoa1);
+        conta2.setCliente(pessoa1);        
     }
 }
